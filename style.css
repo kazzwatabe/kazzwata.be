@@ -35,6 +35,9 @@ a:hover {
 #history p {
     margin-bottom: 24px;
 }
+#history p:last-child {
+    margin-bottom: 60px;
+}
 #history p .date {
     font-size: 14px;
     margin-right: 12px;
