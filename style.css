@@ -27,7 +27,10 @@ a:hover {
     margin-top: 60px;
 }
 #profile p {
-    margin-bottom: 12px;
+    margin-bottom: 24px;
+}
+#profile p.favorites {
+    margin-bottom: 0;
 }
 #profile ul li {
     list-style-type: none;
