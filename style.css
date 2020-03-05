@@ -29,6 +29,11 @@ a:hover {
 #profile p {
     margin-bottom: 12px;
 }
+#profile ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 12px;
+}
 #history {
     margin-top: 60px;
 }
@@ -44,3 +49,8 @@ a:hover {
     width: 110px;
     display: block;
 }
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
