@@ -1,60 +1,99 @@
+/* common */
 body {
-    width:100%;
+    width: 100%;
     font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    font-feature-settings: "palt" 1;
+    font-feature-settings: "palt"1;
     background-color: #f9f9fa;
     color: #212121;
     font-size: 16px;
+    font-weight: 400;
 }
 
-a,a:visited {
+a, a:visited {
     color: #212121;
 }
+
 a:hover {
     color: #9e9e9e;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 48px 0 12px 0;
 }
 
 #wrapper {
     width: 100%;
     max-width: 640px;
-    margin: 0 auto;
+    margin: 64px auto;
 }
+
 @media screen and (max-width: 688px) {
     #wrapper {
         padding: 0 24px;
     }
 }
-#profile {
-    margin-top: 60px;
-}
-#profile p {
-    margin-bottom: 24px;
-}
-#profile p.favorites {
-    margin-bottom: 0;
-}
-#profile ul li {
-    list-style-type: none;
-    float: left;
-    margin-right: 12px;
-}
-#history {
-    margin-top: 60px;
-}
-#history p {
-    margin-bottom: 24px;
-}
-#history p:last-child {
-    margin-bottom: 60px;
-}
-#history p .date {
+
+.date {
     font-size: 14px;
     margin-right: 12px;
     width: 110px;
     display: block;
 }
+
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
-  }
+}
+
+/* toppage */
+#profile p {
+    margin-bottom: 24px;
+}
+
+#profile p.favorites {
+    margin-bottom: 0;
+}
+
+#profile ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 12px;
+}
+
+#blog ul {
+    list-style-type: none;
+}
+
+#history {
+    margin-top: 60px;
+}
+
+#history p {
+    margin-bottom: 24px;
+}
+
+#history p:last-child {
+    margin-bottom: 60px;
+}
+
+/* blog */
+.entry-header {
+    margin-bottom: 48px;
+}
+
+.blog-entry p {
+    margin-bottom: 24px;
+}
+
+.go-top {
+    display: block;
+    margin-top: 64px;
+}
