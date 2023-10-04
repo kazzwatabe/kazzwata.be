@@ -29,6 +29,10 @@ h2 {
     margin: 48px 0 12px 0;
 }
 
+ul li {
+    margin-bottom: 12px;
+}
+
 #wrapper {
     width: 100%;
     max-width: 640px;
@@ -92,6 +96,10 @@ h2 {
 
 .blog-entry p {
     margin-bottom: 24px;
+}
+
+.blog-entry ul {
+    margin-left: 16px;
 }
 
 .go-top {
